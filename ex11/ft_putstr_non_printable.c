@@ -6,15 +6,12 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/02 14:57:08 by jporta            #+#    #+#             */
-/*   Updated: 2021/07/03 14:44:15 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/03 16:43:52 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<stdio.h>
 #include<unistd.h>
-
-#include <stdlib.h>
-#include <unistd.h>
 
 void	ft_putstr_non_printable(char *str)
 {
