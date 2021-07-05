@@ -6,7 +6,7 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 17:41:19 by jporta            #+#    #+#             */
-/*   Updated: 2021/06/30 17:46:46 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/05 12:55:57 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	char	i;
+	unsigned int	i;
 
 	i = 0;
 	while (i < n)
