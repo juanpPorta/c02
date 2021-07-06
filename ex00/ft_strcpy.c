@@ -6,7 +6,7 @@
 /*   By: jporta <jporta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 17:17:30 by jporta            #+#    #+#             */
-/*   Updated: 2021/07/05 13:08:20 by jporta           ###   ########.fr       */
+/*   Updated: 2021/07/06 11:31:04 by jporta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,14 @@
 
 char	*ft_strcpy(char *dest, char *src)
 {
-	unsigned int	i;
+	int	c;
 
-	i = 0;
-	while (dest[i] != '\0')
+	c = 0;
+	while (src[c] != '\0')
 	{
-		dest[i] = src[i];
-		i++;
+		dest[c] = src[c];
+		c++;
 	}
+	dest[c] = '\0';
 	return (dest);
 }
